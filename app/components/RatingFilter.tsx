@@ -45,8 +45,7 @@ const RatingFilter: React.FC = () => {
         min={0}
         max={5}
         step={0.5}
-        onChange={handleSliderChange}
-      >
+        onChange={handleSliderChange}>
         <SliderTrack bg="red.100">
           <SliderFilledTrack bg="red.400" />
         </SliderTrack>
@@ -77,7 +76,7 @@ const RatingFilter: React.FC = () => {
         <option value="3">3 Stars</option>
         <option value="4">4 Stars</option>
         <option value="5">5 Stars</option>
-      </select> */}
+      </select> 
 
       {/* Show a message if no products are available after filtering by rating 5 */}
       {isNoProductsAvailable && (
